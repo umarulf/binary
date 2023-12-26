@@ -1,0 +1,44 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.header {
+  font-size: 35px;
+  text-align: center;
+}
+
+#array {
+  background-color: white;
+  height: 305px;
+  width: 598px;
+  margin: auto;
+  position: relative;
+  margin-top: 64px;
+}
+
+.block {
+  width: 28px;
+  background-color: blue;
+  position: absolute;
+  bottom: 0px;
+}
+
+.block_id {
+  position: absolute;
+  color: black;
+  margin-top: -20px;
+  width: 100%;
+  text-align: center;
+}
+
+.found {
+  color: green;
+  font-weight: bold;
+}
+
+.not-found {
+  color: red;
+  font-weight: bold;
+}
