@@ -11,8 +11,7 @@
 
 #array {
   background-color: white;
-  height: 305px;
-  width: 598px;
+
   margin: auto;
   position: relative;
   margin-top: 64px;
@@ -40,5 +39,9 @@
 
 .not-found {
   color: red;
+  font-weight: bold;
+}
+
+.boldptag {
   font-weight: bold;
 }

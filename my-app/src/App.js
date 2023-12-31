@@ -1,11 +1,15 @@
 import React from "react";
-import BinarySearch from "./BinarySearch";
+import { Provider } from "react-redux";
+import store from "./redux/store";
+import BinarySearch from "./components/BinarySearch";
 
 const App = () => {
   return (
-    <div>
-      <BinarySearch />
-    </div>
+    <Provider store={store}>
+      <div>
+        <BinarySearch />
+      </div>
+    </Provider>
   );
 };
 
