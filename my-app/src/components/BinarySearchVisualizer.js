@@ -9,7 +9,6 @@ const Block = ({ index, value }) => {
       className="block"
       style={{
         height: `${blockHeight}px`,
-        transform: `translate(${index * 40}px)`,
         backgroundColor: "blue",
       }}
     >
@@ -20,7 +19,15 @@ const Block = ({ index, value }) => {
 
 const BinarySearchVisualizer = ({ array }) => {
   return (
-    <div id="array">
+    <div
+      id="array"
+      style={{
+        display: "flex",
+        flexWrap: "wrap",
+        gap: "10px",
+        justifyContent: "center",
+      }}
+    >
       {array.map((value, index) => (
         <Block key={index} value={value} index={index} />
       ))}

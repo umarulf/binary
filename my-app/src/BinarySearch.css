@@ -18,14 +18,12 @@
 }
 
 .block {
-  width: 28px;
+  width: 32px;
   background-color: blue;
-  position: absolute;
   bottom: 0px;
 }
 
 .block_id {
-  position: absolute;
   color: black;
   margin-top: -20px;
   width: 100%;
